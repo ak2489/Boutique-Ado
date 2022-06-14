@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'home',
     'products',
+    'bag',
 ]
 
 MIDDLEWARE = [
@@ -53,6 +54,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'boutique_ado.urls'
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
 
 TEMPLATES = [
     {
